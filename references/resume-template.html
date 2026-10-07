@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>{简历名}</title>
+<style>
+@page { size: A4; margin: 14mm 16mm; }
+body { color: #111; }
+@media print {
+  table, tr { break-inside: avoid; }
+  p { orphans: 2; widows: 2; }
+  .section-heading { break-after: avoid; }
+}
+</style>
+</head>
+<body>
+
+<p style="text-align:center; font-size:22pt; font-family:SimHei; font-weight:bold; margin:0 0 2pt 0; letter-spacing:2pt;">{姓名}</p>
+<p style="text-align:center; font-size:11.5pt; font-family:SimSun; margin:0 0 8pt 0;">求职意向：{岗位}（{性质}）</p>
+
+<table style="width:100%; border-collapse:collapse; margin:0 0 2pt 0;">
+  <tr>
+    <td style="font-size:10.5pt; font-family:SimSun; padding:1pt 0;">电话：{电话}</td>
+    <td style="font-size:10.5pt; font-family:SimSun; padding:1pt 0;">邮箱：{邮箱}</td>
+  </tr>
+  <tr>
+    <td style="font-size:10.5pt; font-family:SimSun; padding:1pt 0;">出生年份：{出生年份}</td>
+    <td style="font-size:10.5pt; font-family:SimSun; padding:1pt 0;">求职地点：{地点}</td>
+  </tr>
+</table>
+
+<p class="section-heading" style="font-size:13pt; font-family:SimHei; font-weight:bold; color:#1F4E79; border-bottom:1pt solid #1F4E79; padding-bottom:2pt; margin:12pt 0 5pt 0;">教育背景</p>
+<p style="font-size:11.5pt; font-family:SimSun; margin:0 0 2pt 0;"><b>{学校}</b> ｜ {专业} ｜ {学历} ｜ {入学时间，按用户提供} — {毕业时间，按用户提供}</p>
+<p style="font-size:10.5pt; font-family:SimSun; margin:0;">主修课程：{课程}</p>
+
+<p class="section-heading" style="font-size:13pt; font-family:SimHei; font-weight:bold; color:#1F4E79; border-bottom:1pt solid #1F4E79; padding-bottom:2pt; margin:12pt 0 5pt 0;">实习经历</p>
+<p style="font-size:11.5pt; font-family:SimSun; margin:0 0 2pt 0;"><b>{公司} · {职位}（{性质}）</b> ｜ {起止时间}</p>
+<p style="font-size:11pt; font-family:SimSun; margin:0 0 2pt 0;">· {职责1}</p>
+<p style="font-size:11pt; font-family:SimSun; margin:0 0 2pt 0;">· {职责2}</p>
+<p style="font-size:11pt; font-family:SimSun; margin:0 0 2pt 0;">· {职责3}</p>
+<p style="font-size:11pt; font-family:SimSun; margin:0;">· {职责4}</p>
+
+<p class="section-heading" style="font-size:13pt; font-family:SimHei; font-weight:bold; color:#1F4E79; border-bottom:1pt solid #1F4E79; padding-bottom:2pt; margin:12pt 0 5pt 0;">项目经历</p>
+<p style="font-size:11.5pt; font-family:SimSun; margin:0 0 2pt 0;"><b>{项目名1}</b></p>
+<p style="font-size:11pt; font-family:SimSun; margin:0 0 2pt 0;">· {项目描述}</p>
+
+<p class="section-heading" style="font-size:13pt; font-family:SimHei; font-weight:bold; color:#1F4E79; border-bottom:1pt solid #1F4E79; padding-bottom:2pt; margin:12pt 0 5pt 0;">专业技能</p>
+<p style="font-size:11pt; font-family:SimSun; margin:0 0 2pt 0;">· {技能1}</p>
+<p style="font-size:11pt; font-family:SimSun; margin:0 0 2pt 0;">· {技能2}</p>
+<p style="font-size:11pt; font-family:SimSun; margin:0 0 2pt 0;">· {技能3}</p>
+<p style="font-size:11pt; font-family:SimSun; margin:0;">· {技能4}</p>
+
+<p class="section-heading" style="font-size:13pt; font-family:SimHei; font-weight:bold; color:#1F4E79; border-bottom:1pt solid #1F4E79; padding-bottom:2pt; margin:12pt 0 5pt 0;">自我评价</p>
+<p style="font-size:11pt; font-family:SimSun; margin:0 0 2pt 0;">· {评价1}</p>
+<p style="font-size:11pt; font-family:SimSun; margin:0 0 2pt 0;">· {评价2}</p>
+<p style="font-size:11pt; font-family:SimSun; margin:0;">· {评价3}</p>
+
+</body>
+</html>
